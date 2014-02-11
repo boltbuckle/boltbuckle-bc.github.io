@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+
+  <title>'s Portfolio Feed</title>
+  <subtitle></subtitle>
+  <link href="http://localhost/eli/?/feed/" hreflang="en" rel="self" type="application/atom+xml"/>
+  <link href="http://localhost/eli/" hreflang="en" rel="alternate" type="text/html"/>
+  
+  <updated>2014-02-10T09:51:25+11:00</updated>
+  <generator uri="http://staceyapp.com/" version="3.0.0">Stacey</generator>
+
+  <author>
+    <name></name>
+    <uri>http://localhost/eli</uri>
+  </author>
+
+  <id>tag:localhost,2014:/?/feed/</id>
+  <rights>©2014 </rights>
+    <entry>
+   <title>No Contact</title>
+   <id>tag:localhost,2014:/?/contact-me/</id>
+   <updated>2014-02-07T00:54:35+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/contact-me/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Simchka Stein<br />
+Simchka@hotmail.com</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>About the Trail</title>
+   <id>tag:localhost,2014:/?/about/</id>
+   <updated>2014-02-07T00:57:24+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/about/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>A la recherche du temps perdu</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Credits</title>
+   <id>tag:localhost,2014:/?/credits/</id>
+   <updated>2014-02-08T00:06:12+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/credits/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>This site was build upon the stacey cms framework.</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trail 2014</title>
+   <id>tag:localhost,2014:/?/trail-2014/</id>
+   <updated>2014-02-08T21:44:35+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 5</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-5/</id>
+   <updated>2014-02-06T21:13:07+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-5/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Text here</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 6</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-6/</id>
+   <updated>2014-02-06T21:13:33+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-6/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Text here</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 7</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-7/</id>
+   <updated>2014-02-06T21:14:49+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-7/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Text here</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 8</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-8/</id>
+   <updated>2014-02-06T21:15:18+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-8/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Text here</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 9</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-9/</id>
+   <updated>2014-02-06T21:16:00+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-9/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Text here</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 10</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-10/</id>
+   <updated>2014-02-06T21:16:31+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-10/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Text here</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 11</title>
+   <id>tag:localhost,2009:/?/trail-2014/trace-11/</id>
+   <updated>2014-02-06T21:18:48+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-11/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Test Text</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 12</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-12/</id>
+   <updated>2014-02-06T21:21:14+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-12/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Een paar woorden hier</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 13</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-13/</id>
+   <updated>2014-02-06T21:22:36+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-13/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Een paar woorden om de leegte te vullen</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 14</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-14/</id>
+   <updated>2014-02-06T21:24:52+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-14/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>En weer een beetje text</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 15</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-15/</id>
+   <updated>2014-02-06T21:26:13+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-15/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore <br />
+et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br />
+ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br />
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 16</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-16/</id>
+   <updated>2014-02-06T21:27:27+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-16/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Was het al dit werk waard.</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 3</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-3/</id>
+   <updated>2014-02-09T09:03:21+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-3/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Text here</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 2</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-2/</id>
+   <updated>2014-02-09T09:06:08+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-2/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+            <img src="./content/2.trail-2014/2.trace-2/01.jpg" alt="01." />
+  <img src="./content/2.trail-2014/2.trace-2/02.jpg" alt="02." />
+          <p>Text here</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 4</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-4/</id>
+   <updated>2014-02-10T00:56:03+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-4/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+            <img src="./content/2.trail-2014/4.trace-4/02.jpg" alt="02." />
+          <p><strong>Technical</strong>:. We gaan het wat langer maken om te zien wat er gebeurd. Dit is een Yaml filetype blijkbaar<br />
+Is dat zo. <em>Ja dat is zo</em>.<br />
+Tuut, over en <strong>out</strong></p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Trace 1 :: Audio Test</title>
+   <id>tag:localhost,2014:/?/trail-2014/trace-1/</id>
+   <updated>2014-02-10T09:44:50+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail-2014/trace-1/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+            <img src="./content/2.trail-2014/1.trace-1/01.jpg" alt="01." />
+          <p>Een audiosignaal is een signaal dat informatie voor het hoorbare frequentiegebied bevat. Het woord audio is Latijn en betekent letterlijk ik hoor (van audire = horen).<br />
+Een audiosignaal in de lucht is geluid. Om gehoord kunnen worden zal de toonhoogte moeten liggen tussen ongeveer 20 hertz en 14 tot 20 kHz, afhankelijk van de leeftijd van de luisteraar (hoe ouder hoe minder hoge tonen men hoort en hoe minder gevoelig het oor wordt voor bepaalde gebieden. Zie gehoordrempel). Naast de toonhoogte is ook de geluidssterkte van belang. De minimale sterkte van geluid dat een persoon kan horen is de gehoordrempel en de maximaal verdraagbare sterkte is de gehoor-pijngrens.</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Big Trail</title>
+   <id>tag:localhost,2014:/?/trail/</id>
+   <updated>2014-02-08T23:22:31+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://localhost/eli/?/trail/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    
+      </div>
+   </content>
+</entry>  
+</feed>

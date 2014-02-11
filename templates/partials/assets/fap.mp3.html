@@ -1,0 +1,15 @@
+{% for mp3 in page.mp3 %}
+<div class="fap">
+       <script type="text/javascript" src="{{page.root_path}}/public/docs/js/fap/audio-player.js"></script>  
+        <script type="text/javascript">  
+            AudioPlayer.setup("{{page.root_path}}/public/docs/js/fap/player.swf", {  
+                width: 290  
+            });  
+        </script>  
+  
+        <p id="audioplayer_{{ mp3.url }}">Loading audio files...</p>  
+        <script type="text/javascript">  
+        AudioPlayer.embed("audioplayer_{{ mp3.url }}", {soundFile: "{{ mp3.url }}" });  
+        </script>  
+</div>
+{% endfor %}

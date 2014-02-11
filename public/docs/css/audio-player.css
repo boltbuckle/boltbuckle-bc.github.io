@@ -1,0 +1,180 @@
+.audiojs {
+background-color:#fff;
+width:200px;
+height:90px;
+background:#fff;
+border:1px solid #B1ABAB;
+overflow:hidden;
+/*font-family:monospace;*/
+font-size:16px;
+background-image:0;
+margin-right: 10px;
+float: left;
+-webkit-box-shadow:1px 1px 8px rgba(0,0,0,0.3);
+-moz-box-shadow:1px 1px 8px rgba(0,0,0,0.3);
+-o-box-shadow:1px 1px 8px rgba(0,0,0,0.3);
+box-shadow:1px 1px 8px rgba(0,0,0,0.3);
+}
+
+.audiojs audio {
+position:absolute;
+left:-1px;
+}
+
+.audiojs .play-pause {
+width:26px;
+height:26px;
+float:left;
+overflow:hidden;
+/*border-right:1px solid #000;*/
+margin-top:2px;
+padding:4px 6px;
+background: none /*#ddd*/ /*#5D4E4E*/ /*#fff*/;
+}
+
+.audiojs p {
+display:none;
+width:26px;
+height:30px;
+cursor:pointer;
+margin:0;
+}
+
+.audiojs .play {
+display:block;
+background:url(../js/audiojs/player-graphics.png) -2px -1px no-repeat;
+}
+
+.audiojs .scrubber {
+position:relative;
+float:left;
+width:178px;
+background:#fff;
+height:14px;
+border-top:1px solid #C49393;
+border-left:1px solid #C49393;
+border-right:1px solid #EFC4C4;
+border-bottom:1px solid #EFC4C4;
+overflow:hidden;
+margin:10px 10px 2px;
+padding: 0px;
+}
+
+.controls { width: 172px; /*background: #E0E9CD #B1E445;*/ float: left; margin: 0px 10px; padding: 4px;}
+
+.audiojs .progress {
+position:absolute;
+top:0;
+left:0;
+height:14px;
+width:0;
+/*background:#4DEF3E;*/
+background: #4def3e; /* Old browsers */
+background: -moz-linear-gradient(top, #4def3e 0%, #3ed337 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4def3e), color-stop(100%,#3ed337)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #4def3e 0%,#3ed337 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #4def3e 0%,#3ed337 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #4def3e 0%,#3ed337 100%); /* IE10+ */
+background: linear-gradient(to bottom, #4def3e 0%,#3ed337 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4def3e', endColorstr='#3ed337',GradientType=0 ); /* IE6-9 */
+
+
+
+
+
+z-index:1;
+background-image:0;
+}
+
+.audiojs .loaded {
+position:absolute;
+top:0;
+left:0;
+height:14px;
+width:0;
+background:#FC9898;
+background-image:0;
+}
+
+.audiojs .time {
+float:left;
+/*clear: both;*/
+height:38px;
+width: 128px;
+/*line-height:36px;*/
+/*border-left:1px solid #000;*/
+text-align: center;
+/*background: #E4D345;*/
+color:#000;
+margin:0 0 0 6px;
+/*padding:0 6px 0 12px;*/
+/*text-shadow: none;*/
+font-weight: 700;
+line-height: 38px;
+font-family: "vera sans mono", "Bitstream Vera Sans Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, monospace;
+}
+
+.audiojs .time em {
+color:#000;
+font-style:normal;
+padding:0 2px 0 0;
+/*text-shadow: none;*/
+/*font-family: bitstream vera sans mono;*/
+}
+
+.audiojs .time strong {
+font-weight:400;
+padding:0 0 0 2px;
+/*text-shadow: none;*/
+/*font-family: bitstream vera sans mono;*/
+}
+
+.audiojs .error-message {
+float:left;
+display:none;
+height:36px;
+width:400px;
+overflow:hidden;
+line-height:36px;
+white-space:nowrap;
+color:#fff;
+text-overflow:ellipsis;
+-o-text-overflow:ellipsis;
+-icab-text-overflow:ellipsis;
+-khtml-text-overflow:ellipsis;
+-moz-text-overflow:ellipsis;
+-webkit-text-overflow:ellipsis;
+margin:0 10px;
+}
+
+.audiojs .error-message a {
+color:#eee;
+text-decoration:none;
+padding-bottom:1px;
+border-bottom:1px solid #999;
+white-space:wrap;
+}
+
+.audiojs .loading {
+background:url(../js/audiojs/player-graphics.png) -2px -31px no-repeat;
+}
+
+.audiojs .error {
+background:url(../js/audiojs/player-graphics.png) -2px -61px no-repeat;
+}
+
+.audiojs .pause {
+background:url(../js/audiojs/player-graphics.png) -2px -91px no-repeat;
+}
+
+.error .play-pause p {
+cursor:auto;
+}
+
+.playing .play,.playing .loading,.playing .error,.loading .play,.loading .pause,.loading .error,.error .time,.error .play,.error .pause,.error .scrubber,.error .loading {
+display:none;
+}
+
+.playing .pause,.loading .loading,.error .error,.error .error-message {
+display:block;
+}

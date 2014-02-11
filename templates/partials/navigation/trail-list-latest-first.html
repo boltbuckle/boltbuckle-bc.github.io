@@ -1,0 +1,15 @@
+{% if page.children %}
+  {% for item in page.children|reverse %}
+    <div class="trace-segment pure-g-r {{ child.id }}">
+	  <div class="trace-date pure-u-1-5"><p><a href="{{ item.url }}">{{ item.date | date("M || d || Y ") }}</a></p></div>
+      <div class="trace-name pure-u-3-5"><p><a href="{{ item.url }}">{{ item.title }}</a></p></div>
+      <div class="pure-u-1-5 trace-avatar">
+	    {% if item.thumb %}
+	      <a href="{{ item.url }}">
+          <img src="{{ item.thumb.url }}" width="30px" height="30px" class="project-thumb" alt="">
+          </a>   
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %} 
+{% endif %}

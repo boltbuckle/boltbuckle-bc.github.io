@@ -1,0 +1,10 @@
+<div class="pure-u-1-5">
+  <ol id="navigation" class="sections">
+    {% for child in page.root %}
+      <li>
+        <a href="{{ child.url }}">{{ child.title }} &rarr;</a>
+      </li>
+    {% endfor %}
+      <li><a href="{{ root_path }}/eli/_pmwiki">Wiki &rarr;</a></li>
+  </ol>
+</div>
