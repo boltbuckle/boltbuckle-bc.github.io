@@ -17,8 +17,10 @@
         <div class="pure-u-1">
           <h1 class="trace-content-title">{{ page.title }}</h1>
           <p class="trace-content-subtitle"></p>
-          <h4><time datetime="{{page.date|date:'%F'}}">{{page.date|date:"%b || %d || %Y"}}</time></h4>
-          
+          <h4>
+			  {% if page.date %}
+			  <time datetime="{{page.date|date:'%F'}}">{{page.date|date:"%b || %d || %Y"}}</time></h4>
+              {% endif %}
         </div>
       </div>
      
