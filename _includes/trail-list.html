@@ -1,0 +1,9 @@
+  <div id="list" class="pure-u-1">
+    {% for post in site.posts %}
+       <div class="trace-item trace-item-green pure-g">
+         <div class="pure-u">
+           <a href="{{ post.url }}">{{ post.title }}</a>
+         </div>
+       </div>
+    {% endfor %}
+  </div>

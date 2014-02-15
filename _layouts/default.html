@@ -1,0 +1,42 @@
+{% include head.html %}
+
+<body>
+
+<div id="layout" class="content pure-g">
+	  
+	  {% include side-nav.html %}
+	  
+	  {% include trail-list-extended.html %}
+    
+  <div id="main" class="pure-u-1">
+    <div class="trace-content">
+		
+	 <!-- =================== -->
+      
+      <div class="trace-content-header pure-g">
+        <div class="pure-u-1">
+          <h1 class="trace-content-title">{{ page.title }}</h1>
+          <p class="trace-content-subtitle">
+          <!--h4>{{ page.date}}</h4-->
+          <h4><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b || %d || %Y"}}</time></h4>
+          </p>
+        </div>
+      </div>
+     
+     <!-- =================== -->
+     <div class="trace-content-body">
+       
+       {{content}}
+     
+     </div>
+     <!-- =================== -->
+   
+   </div> <!-- end trace content -->
+ </div> <!-- end main -->
+
+</div> <!-- end main layout -->
+  
+      {% include footer.html %}
+
+</body>
+</html>
