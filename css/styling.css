@@ -259,7 +259,7 @@ a {
         height: 100%;
         background: rgba(252, 118, 118, 0.953);
         border-right: 1px solid #afafaf;
-        box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.085);
+        box-shadow: 2px 0px 6px rgba(0, 0, 0, 0.085);
     }
 
     /* Show the menu items on the larger screen */
