@@ -92,7 +92,8 @@ a {
 }
     #nav .pure-menu a:hover,
     #nav .pure-menu a:focus {
-        /*background: rgb(55, 60, 90);*/
+        background: none;
+        text-decoration: underline;
     }
     #nav .pure-menu a {
         color: #fff;
@@ -203,7 +204,7 @@ a {
   border-radius: 2px;
   margin: 2px 0px;
   /*background: #F2FFD4;*/
-  border-bottom: 1px dashed /*#B7B4B4*/ #FF4C4C;
+  border-bottom: 1px dotted /*#B7B4B4*/ #FF4C4C;
   }
   
 /* ============================= */
@@ -229,8 +230,8 @@ a {
   
   }
   
-  .trail-list-trace-title {font-weight: 700; font-size: 14px;}
- .trail-list-trace-title a {color: #000 /*#ED1818*/;}
+  .trail-list-trace-title {font-weight: 400; font-size: 14px;}
+ .trail-list-trace-title a {color: #CE1A1A  /*#FF2121*/ /*#ED1818*/; text-decoration: underline;}
 
 
 /*

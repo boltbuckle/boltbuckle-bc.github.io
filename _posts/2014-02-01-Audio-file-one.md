@@ -2,7 +2,7 @@
 title: Casablanca
 layout: default
 avatar: tietu.png
-labels: testcategory
+labels:
 capsule: tekstlengte test tuut ttu
 
 ---
