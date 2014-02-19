@@ -1,7 +1,3 @@
-/*
- * -- BASE STYLES --
- * Most of these are inherited from Base, but I want to change a few.
- */
 body {
     color: #333;
 }
@@ -15,76 +11,45 @@ a {
     color: /*#1b98f8*/ #0000CC;
 }
 
-
-/*
- * -- HELPER STYLES --
- * Over-riding some of the .pure-button styles to make my buttons look unique
- */
-.primary-button,
-.secondary-button {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border-radius: 20px;
-}
-.primary-button {
-    color: #fff;
-    background: #1b98f8;
-    margin: 1em 0;
-}
-.secondary-button {
-    background: #fff;
-    border: 1px solid #ddd;
-    color: #666;
-    padding: 0.5em 2em;
-    font-size: 80%;
-}
-
-/*
- * -- LAYOUT STYLES --
- * This layout consists of three main elements, `#nav` (navigation bar), `#list` (trace list), and `#main` (trace content). All 3 elements are within `#layout`
- */
 #layout, #nav, #list, #main {
     margin: 0;
     padding: 0;
 }
 
-/* Make the navigation 100% width on phones */
 #nav {
     width: 100%;
     height: 40px;
     position: relative;
-    /*background: rgb(37, 42, 58);*/
+    background: rgba(252, 118, 118, 0.953);
     text-align: center;
 }
-/* Show the "Menu" button on phones */
+
 #nav .nav-menu-button {
     display: block;
     top: 0.5em;
     right: 0.5em;
     position: absolute;
 }
+#nav .nav-menu-button a:active,
+#nav .nav-menu-button a:visited,
+#nav .nav-menu-button a {
+    color: #fff;
+    font-weight: bold;
+}
 
-/* When "Menu" is clicked, the navbar should be 80% height */
 #nav.active {
     height: 80%;
 }
-/* Don't show the navigation items... */
+
 .nav-inner {
     display: none;
 }
 
-/* ...until the "Menu" button is clicked */
 #nav.active .nav-inner {
     display: block;
     padding: 2em 0;
 }
 
-
-/*
- * -- NAV BAR STYLES --
- * Styling the default .pure-menu to look a little more unique.
- */
 #nav .pure-menu.pure-menu-open {
     background: transparent;
     border: none;
@@ -100,45 +65,10 @@ a {
         margin-left: 0.5em;
         font-size: 13px
     }
-    #nav .pure-menu-heading {
-        border-bottom: none;
-        font-size:110%;
-        color: rgb(75, 113, 151);
-    }
 
 
-/*
- * -- trace STYLES --
- * Styles relevant to the trace messages, labels, counts, and more.
- */
-.trace-count {
-    color: rgb(75, 113, 151);
-}
-
-.trace-label-personal,
-.trace-label-work,
-.trace-label-travel {
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-    margin-right: 0.5em;
-    border-radius: 3px;
-}
-.trace-label-personal {
-    background: #ffc94c;
-}
-.trace-label-work {
-    background: #41ccb4;
-}
-.trace-label-travel {
-    background: #40c365;
-}
-
-
-/* trace Item Styles */
 .trace-item {
     padding: 0.3em 0em;
-    /*border-bottom: 1px solid #ddd;*/
     border-left: 6px solid transparent;
     color: #000;
 }
@@ -146,25 +76,7 @@ a {
         border-radius: 3px;
         margin-right: 0.5em;
     }
-    .trace-name,
-    .trace-subject {
-        margin: 0;
-    }
-    .trace-name {
-        text-transform: uppercase;
-        color: #999;
-    }
-    .trace-desc {
-        font-size: 80%;
-        margin: 0.4em 0;
-    }
 
-.trace-item-selected {
-    background: #eee;
-}
-.trace-item-unread {
-    border-left: 6px solid #1b98f8;
-}
 
 /* trace Content Styles */
 .trace-content-header, .trace-content-body, .trace-content-footer {
@@ -186,13 +98,6 @@ a {
             .trace-content-subtitle span {
                 color: #999;
             }
-    .trace-content-controls {
-        margin-top: 2em;
-        text-align: right;
-    }
-        .trace-content-controls .secondary-button {
-            margin-bottom: 0.3em;
-        }
 
     .trace-avatar {
         width: 32px;
@@ -200,7 +105,7 @@ a {
     }
 
 
-.trace-item-green  {
+.trace-item-default  {
   border-radius: 2px;
   margin: 2px 0px;
   /*background: #F2FFD4;*/
@@ -230,15 +135,10 @@ a {
   
   }
   
-  .trail-list-trace-title {font-weight: 400; font-size: 14px;}
+ .trail-list-trace-title {font-weight: 400; font-size: 14px;}
  .trail-list-trace-title a {color: #CE1A1A  /*#FF2121*/ /*#ED1818*/; text-decoration: underline;}
 
 
-/*
- * -- TABLET (AND UP) MEDIA QUERIES --
- * On tablets and other medium-sized devices, we want to customize some
- * of the mobile styles.
- */
 @media (min-width: 40em) {
 
     /* Move the layout over so we can fit the nav + list in on the left */
@@ -293,11 +193,6 @@ a {
 
 }
 
-/*
- * -- DESKTOP (AND UP) MEDIA QUERIES --
- * On desktops and other large-sized devices, we want to customize some
- * of the mobile styles.
- */
 @media (min-width: 60em) {
 
     /* This will take up the entire height, and be a little thinner */
