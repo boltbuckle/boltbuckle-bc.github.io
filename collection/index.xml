@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Collections on Pek Druppel</title>
+    <title>Collection on Pek Druppel</title>
     <link>/collection/</link>
-    <description>Recent content in Collections on Pek Druppel</description>
+    <description>Recent content in Collection on Pek Druppel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/collection/index.xml" rel="self" type="application/rss+xml" />
