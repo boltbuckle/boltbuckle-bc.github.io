@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Pek Druppel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Mar 2021 13:36:37 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tag2</title>
+      <link>/tags/tag2/</link>
+      <pubDate>Mon, 01 Mar 2021 13:36:37 +0100</pubDate>
+      
+      <guid>/tags/tag2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tagt1</title>
+      <link>/tags/tagt1/</link>
+      <pubDate>Mon, 01 Mar 2021 13:36:37 +0100</pubDate>
+      
+      <guid>/tags/tagt1/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>tagtest1</title>
       <link>/tags/tagtest1/</link>
