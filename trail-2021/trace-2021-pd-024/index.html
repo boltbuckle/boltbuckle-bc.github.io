@@ -15,8 +15,7 @@
   <script src="/thirdparty/plyr/plyr.js"></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <script src="/thirdparty/fontawesome/js/fontawesome.js"></script>
-  <script src="/thirdparty/fontawesome/js/solid.js"></script>
-  </head> 
+  <script src="/thirdparty/fontawesome/js/solid.js"></script></head> 
 <body>
   <nav id="sidebar">
   <div id="dismiss">
@@ -59,7 +58,8 @@
     </span></div>
 </div>
     <div class="info-panel-title">
-      <h1>Vierde Test Post Title</h1> 
+      <div class="publishdate">March 20, 2020</div>
+      <h1>Vierde Test Post Title</h1>
     </div>
     <div class="info-panel-content" >
       <div class="talk-about"><p>Vierde est post content</p>
@@ -473,7 +473,7 @@
     </div>
   </main>
   <script src=/js/jquery-3.5.1.slim.min.js></script>
-<script>const player = new Plyr('#player');</script>   
+   
 <script src=/js/bootstrap.bundle.min.js></script>
 <script src=/js/popper.min.js></script>
 <script src=/js/jquery.mCustomScrollbar.concat.min.js></script>
@@ -495,6 +495,11 @@
                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
             });
         });
+</script>
+<script>
+const player = new Plyr('#player', { 
+controls: ['play-large','restart','play','progress','current-time','duration', 'mute','volume','download', ],
+});
 </script>
 </body>
 </html>

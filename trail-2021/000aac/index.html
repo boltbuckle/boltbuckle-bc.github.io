@@ -15,8 +15,7 @@
   <script src="/thirdparty/plyr/plyr.js"></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <script src="/thirdparty/fontawesome/js/fontawesome.js"></script>
-  <script src="/thirdparty/fontawesome/js/solid.js"></script>
-  </head> 
+  <script src="/thirdparty/fontawesome/js/solid.js"></script></head> 
 <body>
   <nav id="sidebar">
   <div id="dismiss">
@@ -64,7 +63,8 @@
     </span></div>
 </div>
     <div class="info-panel-title">
-      <h1>000AAC</h1> 
+      <div class="publishdate">March 1, 2021</div>
+      <h1>000AAC</h1>
     </div>
     <div class="info-panel-content" >
       <div class="talk-about"><p>In 2002 <a href="https://en.wikipedia.org/wiki/Aaron_Swartz">Aaron Swartz</a> Aaron Swartz created <a href="http://www.aaronsw.com/2002/atx/intro">atx</a> , &ldquo;the true structured text format&rdquo;. Swartz and John Gruber then worked together to create the <strong>Markdown</strong> language in 2004,[2][3] with the goal of enabling people &ldquo;to write using an easy-to-read and easy-to-write plain text format, optionally convert it to structurally valid XHTML (or HTML)&rdquo;.[4]</p>
@@ -482,7 +482,7 @@
     </div>
   </main>
   <script src=/js/jquery-3.5.1.slim.min.js></script>
-<script>const player = new Plyr('#player');</script>   
+   
 <script src=/js/bootstrap.bundle.min.js></script>
 <script src=/js/popper.min.js></script>
 <script src=/js/jquery.mCustomScrollbar.concat.min.js></script>
@@ -504,6 +504,11 @@
                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
             });
         });
+</script>
+<script>
+const player = new Plyr('#player', { 
+controls: ['play-large','restart','play','progress','current-time','duration', 'mute','volume','download', ],
+});
 </script>
 </body>
 </html>

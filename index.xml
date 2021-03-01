@@ -35,6 +35,15 @@
     </item>
     
     <item>
+      <title>Derde Test Post</title>
+      <link>/trail-2021/trace-2021-pd-001/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/trail-2021/trace-2021-pd-001/</guid>
+      <description>summary tata</description>
+    </item>
+    
+    <item>
       <title>Eerste Post in Collection</title>
       <link>/collection/01_post/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
@@ -58,15 +67,6 @@
       <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/post-1/</guid>
-      <description>summary tata</description>
-    </item>
-    
-    <item>
-      <title>Derde Test Post</title>
-      <link>/trail-2021/trace-2021-pd-001/</link>
-      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/trail-2021/trace-2021-pd-001/</guid>
       <description>summary tata</description>
     </item>
     

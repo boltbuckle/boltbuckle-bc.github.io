@@ -15,8 +15,7 @@
   <script src="/thirdparty/plyr/plyr.js"></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <script src="/thirdparty/fontawesome/js/fontawesome.js"></script>
-  <script src="/thirdparty/fontawesome/js/solid.js"></script>
-  </head> 
+  <script src="/thirdparty/fontawesome/js/solid.js"></script></head> 
 <body>
   <nav id="sidebar">
   <div id="dismiss">
@@ -68,7 +67,8 @@
     </span></div>
 </div>
     <div class="info-panel-title">
-      <h1>Partita - JS. Bach. Trans for Guitar</h1> 
+      <div class="publishdate">March 20, 2020</div>
+      <h1>Partita - JS. Bach. Trans for Guitar</h1>
     </div>
     <div class="info-panel-content" >
       <div class="talk-about"><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &lsquo;Content here, content here&rsquo;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &lsquo;lorem ipsum&rsquo; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
@@ -484,7 +484,7 @@
     </div>
   </main>
   <script src=/js/jquery-3.5.1.slim.min.js></script>
-<script>const player = new Plyr('#player');</script>   
+   
 <script src=/js/bootstrap.bundle.min.js></script>
 <script src=/js/popper.min.js></script>
 <script src=/js/jquery.mCustomScrollbar.concat.min.js></script>
@@ -506,6 +506,11 @@
                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
             });
         });
+</script>
+<script>
+const player = new Plyr('#player', { 
+controls: ['play-large','restart','play','progress','current-time','duration', 'mute','volume','download', ],
+});
 </script>
 </body>
 </html>

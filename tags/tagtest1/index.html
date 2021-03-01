@@ -15,8 +15,7 @@
   <script src="/thirdparty/plyr/plyr.js"></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <script src="/thirdparty/fontawesome/js/fontawesome.js"></script>
-  <script src="/thirdparty/fontawesome/js/solid.js"></script>
-  </head> 
+  <script src="/thirdparty/fontawesome/js/solid.js"></script></head> 
 <body>
   <nav id="sidebar">
   <div id="dismiss">
@@ -64,6 +63,13 @@
     	<span class="trace-title p-1 ">Markdown test</span>
       <span class="trace-desc mr-auto  p-1 ">dit is een beschrijving</span>
       <span class="trace-play ml-auto"><span class="iconify trace-play ml-auto " data-icon="ic:sharp-play-circle-outline" data-inline="true"></span></span>
+  	</li></a><a href="/trail-2021/trace-2021-pd-001/">
+  	<li class="traces d-flex flex-row-md"> 
+      <span class="trace-tag p-1 "></span>
+			<span class="trace-title-link p-1 "></span>
+    	<span class="trace-title p-1 ">Derde Test Post</span>
+      <span class="trace-desc mr-auto  p-1 "></span>
+      <span class="trace-play ml-auto"><span class="iconify trace-play ml-auto " data-icon="ic:sharp-play-circle-outline" data-inline="true"></span></span>
   	</li></a><a href="/collection/01_post/">
   	<li class="traces d-flex flex-row-md"> 
       <span class="trace-tag p-1 "></span>
@@ -79,13 +85,6 @@
       <span class="trace-desc mr-auto  p-1 "></span>
       <span class="trace-play ml-auto"><span class="iconify trace-play ml-auto " data-icon="ic:sharp-play-circle-outline" data-inline="true"></span></span>
   	</li></a><a href="/post/post-1/">
-  	<li class="traces d-flex flex-row-md"> 
-      <span class="trace-tag p-1 "></span>
-			<span class="trace-title-link p-1 "></span>
-    	<span class="trace-title p-1 ">Derde Test Post</span>
-      <span class="trace-desc mr-auto  p-1 "></span>
-      <span class="trace-play ml-auto"><span class="iconify trace-play ml-auto " data-icon="ic:sharp-play-circle-outline" data-inline="true"></span></span>
-  	</li></a><a href="/trail-2021/trace-2021-pd-001/">
   	<li class="traces d-flex flex-row-md"> 
       <span class="trace-tag p-1 "></span>
 			<span class="trace-title-link p-1 "></span>
@@ -752,7 +751,7 @@
     </div>
   </main>
   <script src=/js/jquery-3.5.1.slim.min.js></script>
-<script>const player = new Plyr('#player');</script>   
+   
 <script src=/js/bootstrap.bundle.min.js></script>
 <script src=/js/popper.min.js></script>
 <script src=/js/jquery.mCustomScrollbar.concat.min.js></script>
@@ -774,6 +773,11 @@
                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
             });
         });
+</script>
+<script>
+const player = new Plyr('#player', { 
+controls: ['play-large','restart','play','progress','current-time','duration', 'mute','volume','download', ],
+});
 </script>
 </body>
 </html>
