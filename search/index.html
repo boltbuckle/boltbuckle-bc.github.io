@@ -27,7 +27,7 @@
   </div>
   <div class="sidebar-search"> 
     <form action="/search">
-      <input id="search-query-2" type="text" name="s" placeholder="SEARCH"/>
+      <input id="search-query-2" type="text" name="s" placeholder="SEARCH" onfocus="this.placeholder = ''" onblur="this.placeholder = 'SEARCH'"/>
     </form>
   </div>
   <ul class="sidebar-entries">
@@ -51,7 +51,7 @@
     <div class="row"><section class="col-md-10 offset-md-1 p-3 p-lg-5 d-flex flex-column">
   <div class="my-auto" >
     <form action="/search">
-      <input id="search-query-1" type="text" name="s" placeholder="Enter Keywords"/>
+      <input id="search-query-1" type="text" name="s" placeholder="Enter Keywords" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search...'"/>
     </form>
     <div id="search-results">
      <h3>Matching pages</h3>
