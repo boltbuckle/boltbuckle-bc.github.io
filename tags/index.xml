@@ -43,5 +43,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>kwaktag</title>
+      <link>/tags/kwaktag/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/kwaktag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tuuttag</title>
+      <link>/tags/tuuttag/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tuuttag/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

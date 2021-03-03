@@ -113,6 +113,9 @@
     <loc>/trail-2022/trace-2022-pd-015/</loc>
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/kwaktag/</loc>
+    <lastmod>2020-03-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/2020/trailpost-1/</loc>
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -245,6 +248,9 @@
     <loc>/</loc>
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/tuuttag/</loc>
+    <lastmod>2020-03-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/post/post-3/</loc>
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -336,5 +342,8 @@
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
+  </url><url>
+    <loc>/search/</loc>
+    <priority>0.1</priority>
   </url>
 </urlset>

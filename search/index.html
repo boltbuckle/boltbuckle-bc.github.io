@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="robots" content="follow"/>
+  <meta name="description" content="Audio Diary"/>
+  <meta name="author" content="EVdV"/>
+  <meta name="keywords" content="media"/>
+  <meta name="generator" content="Hugo 0.81.0" />
+  <title>Pek Druppel Audio Trail - Search Results</title>
+  <link href="/main.min.css" rel="stylesheet">
+  <link href="/thirdparty/plyr/src/sass/plyr.min.css" rel="stylesheet">
+  <link href="/fonts.css" rel="stylesheet">
+
+  <script src="/thirdparty/plyr/plyr.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="/thirdparty/fontawesome/js/fontawesome.js"></script>
+  <script src="/thirdparty/fontawesome/js/solid.js"></script></head> 
+<body>
+  <nav id="sidebar" class="mCustomScrollbar-" data-mcs-theme="light">
+  <div id="dismiss">
+    <i class="fas fa-arrow-left"></i>
+  </div>
+  <div class="sidebar-header">
+    <h3>Pek Druppel</h3>
+  </div>
+  <div class="sidebar-search"> 
+    <form action="/search">
+      <input id="search-query-2" type="text" name="s" placeholder="SEARCH"/>
+    </form>
+  </div>
+  <ul class="sidebar-entries">
+    <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+    <li class="nav-item active"><a class="nav-link" href="/trail-2021/">Trail 2021</a></li>
+    <li class="nav-item active"><a class="nav-link" href="/trail-2022/">Trail 2022</a></li>
+    <li class="nav-item active"><a class="nav-link" href="/collection">Collection</a></li>
+  </ul>
+  <ul class="sidebar-entries">
+    
+  </ul>
+</nav>
+<div class="overlay"></div><div class="col-md-12 navbar navbar-dark d-flex flex-row-md navbar-white stick-to-top">
+  <div class="nav-control-group">
+  <button type="button" id="sidebarCollapse" class="btn">
+    <i class="fas fa-align-left"></i>
+  </button>
+  <a class="navbar-brand mr-auto" href="/">Pek Druppel</a>
+  </div><div class="no-audio-playing p-1"><p><span class="iconify" data-icon="fluent:music-note-1-20-regular" data-inline="true" style="vertical-align: -0.2em;"></span>No Audio Selected</p>
+</div>
+</div>
+
+	<main  class="container">
+    <div class="row"><section class="col-md-10 offset-md-1 p-3 p-lg-5 d-flex flex-column">
+  <div class="my-auto" >
+    <form action="/search">
+      <input id="search-query-1" type="text" name="s" placeholder="Enter Keywords"/>
+    </form>
+    <div id="search-results">
+     <h3>Matching pages</h3>
+    </div>
+  </div>
+</section>
+
+<script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}" class="search-summary">
+      <h4><a href="${link}">${title}</a></h4>
+      <p>${snippet}</p>
+      ${ isset tags }<p>Tags: ${tags}</p>${ end }
+      ${ isset categories }<p>Categories: ${categories}</p>${ end }
+    </div>
+</script>
+
+</div>
+    </div>
+    <div class="fixed-bottom"><footer></footer>
+    </div>
+  </main>
+  
+<script src=/js/jquery-3.6.0.min.js></script> 
+<script src=/js/bootstrap.bundle.min.js></script>
+<script src=/js/popper.min.js></script>
+<script src=/js/jquery.mCustomScrollbar.concat.min.js></script>
+<script src=/js/jquery.mark.min.js></script>
+<script src=/js/fuse.min.js></script>
+<script src=/js/search.js></script>
+<script>
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function () {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+</script>
+<script>
+const player = new Plyr('#player', { 
+controls: ['play-large','restart','play','progress','current-time','duration', 'mute','volume','download', ],
+});
+</script>
+
+</body>
+</html>
