@@ -9,14 +9,15 @@
   <meta name="keywords" content="media"/>
   <meta name="generator" content="Hugo 0.81.0" />
   <title>Pek Druppel Audio Trail - Post</title>
+  <link rel="icon" href="/favicon.png" type="image/x-icon">
   <link href="/main.min.css" rel="stylesheet">
   <link href="/thirdparty/plyr/src/sass/plyr.min.css" rel="stylesheet">
   <link href="/fonts.css" rel="stylesheet">
 
   <script src="/thirdparty/plyr/plyr.js"></script>
-  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <script src="/thirdparty/fontawesome/js/fontawesome.js"></script>
-  <script src="/thirdparty/fontawesome/js/solid.js"></script></head> 
+  <script src="/thirdparty/fontawesome/js/solid.js"></script></head>
+ 
 <body>
   <nav id="sidebar" class="mCustomScrollbar-" data-mcs-theme="light">
   <div id="dismiss">
@@ -42,8 +43,9 @@
   <button type="button" id="sidebarCollapse" class="btn">
     <i class="fas fa-align-left"></i>
   </button>
-  <a class="navbar-brand mr-auto" href="/">Pek Druppel</a>
-  </div><div class="no-audio-playing p-1"><p><span class="iconify" data-icon="fluent:music-note-1-20-regular" data-inline="true" style="vertical-align: -0.2em;"></span>No Audio Selected</p>
+  <a class="navbar-brand mr-auto" href="/">Pek Druppel:</a>
+  <a class="navbar-brand navbar-section" href="../../post">Post</a>
+  </div><div class="no-audio-playing p-1"><p>No Audio Selected</p>
 </div>
 </div>
 
@@ -62,34 +64,49 @@
 </div>
 <div class="trail-1">
 	<ul>
-    
-    <li class="traces">
-      <a class="traces d-flex flex-row" href="/post/post-1/">
-      <div class="trace-tag pt"></div>
-      <div class="trace-title pt">Derde Test Post</div>
-      <div class="trace-desc mr-auto pt"></div>
-      <div class="trace-play ml-auto pt"><span class="iconify trace-play ml-auto" data-icon="ic:baseline-podcasts" data-inline="true"></span></div></a>
+  	<li class="traces focus">
+      <a id="/post/post-1/" class="traces d-flex flex-column  active" href="/post/post-1/">
+      <div class="first d-flex flex-row pt">
+        <div class="trace-tag pt"></div>
+        <div class="trace-title pt">Derde Test Post</div>
+      </div>
+      <div class="second d-flex flex-row pt">
+        <div class="trace-desc  pt"></div>
+      </div>
+      </a>
     </li>
-    <li class="traces">
-      <a class="traces d-flex flex-row" href="/post/post-2/">
-      <div class="trace-tag pt"></div>
-      <div class="trace-title pt">Eerste Test Post</div>
-      <div class="trace-desc mr-auto pt"></div>
-      <div class="trace-play ml-auto pt"><span class="iconify trace-play ml-auto" data-icon="ic:baseline-podcasts" data-inline="true"></span></div></a>
+  	<li class="traces focus">
+      <a id="/post/post-2/" class="traces d-flex flex-column  active" href="/post/post-2/">
+      <div class="first d-flex flex-row pt">
+        <div class="trace-tag pt"></div>
+        <div class="trace-title pt">Eerste Test Post</div>
+      </div>
+      <div class="second d-flex flex-row pt">
+        <div class="trace-desc  pt"></div>
+      </div>
+      </a>
     </li>
-    <li class="traces">
-      <a class="traces d-flex flex-row" href="/post/post-3/">
-      <div class="trace-tag pt"></div>
-      <div class="trace-title pt">Tweede Test Post</div>
-      <div class="trace-desc mr-auto pt"></div>
-      <div class="trace-play ml-auto pt"><span class="iconify trace-play ml-auto" data-icon="ic:baseline-podcasts" data-inline="true"></span></div></a>
+  	<li class="traces focus">
+      <a id="/post/post-3/" class="traces d-flex flex-column  active" href="/post/post-3/">
+      <div class="first d-flex flex-row pt">
+        <div class="trace-tag pt"></div>
+        <div class="trace-title pt">Tweede Test Post</div>
+      </div>
+      <div class="second d-flex flex-row pt">
+        <div class="trace-desc  pt"></div>
+      </div>
+      </a>
     </li>
-    <li class="traces">
-      <a class="traces d-flex flex-row" href="/post/post-4/">
-      <div class="trace-tag pt"></div>
-      <div class="trace-title pt">Vierde Test Post Title</div>
-      <div class="trace-desc mr-auto pt"></div>
-      <div class="trace-play ml-auto pt"><span class="iconify trace-play ml-auto" data-icon="ic:baseline-podcasts" data-inline="true"></span></div></a>
+  	<li class="traces focus">
+      <a id="/post/post-4/" class="traces d-flex flex-column  active" href="/post/post-4/">
+      <div class="first d-flex flex-row pt">
+        <div class="trace-tag pt"></div>
+        <div class="trace-title pt">Vierde Test Post Title</div>
+      </div>
+      <div class="second d-flex flex-row pt">
+        <div class="trace-desc  pt"></div>
+      </div>
+      </a>
     </li>
 	</ul>
 </div>
@@ -99,13 +116,8 @@
     </div>
   </main>
   
-<script src=/js/jquery-3.6.0.min.js></script> 
-<script src=/js/bootstrap.bundle.min.js></script>
-<script src=/js/popper.min.js></script>
-<script src=/js/jquery.mCustomScrollbar.concat.min.js></script>
-<script src=/js/jquery.mark.min.js></script>
-<script src=/js/fuse.min.js></script>
-<script src=/js/search.js></script>
+
+<script src=/js/bundledmin.min.js></script> 
 <script>
         $(document).ready(function () {
             $("#sidebar").mCustomScrollbar({
